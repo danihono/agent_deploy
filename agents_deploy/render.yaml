@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: crewai-app
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run 1_HOME🏠.py
-    autoDeploy: true
